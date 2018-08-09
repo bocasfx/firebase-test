@@ -1,0 +1,30 @@
+[debug] [2018-08-09T13:19:27.875Z] ----------------------------------------------------------------------
+[debug] [2018-08-09T13:19:27.877Z] Command:       /Users/rpalacios/.nvm/versions/node/v10.6.0/bin/node /Users/rpalacios/.nvm/versions/node/v10.6.0/bin/firebase functions:shell
+[debug] [2018-08-09T13:19:27.877Z] CLI Version:   4.0.3
+[debug] [2018-08-09T13:19:27.877Z] Platform:      darwin
+[debug] [2018-08-09T13:19:27.877Z] Node Version:  v10.6.0
+[debug] [2018-08-09T13:19:27.878Z] Time:          Thu Aug 09 2018 09:19:27 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-08-09T13:19:27.878Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-09T13:19:27.889Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-09T13:19:27.889Z] > authorizing via signed-in user
+[debug] [2018-08-09T13:19:27.891Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/bocas-test  
+  
+ Thu Aug 09 2018 09:19:27 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-08-09T13:19:28.137Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-09T13:19:28.138Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/bocas-test/tokens  
+  
+ Thu Aug 09 2018 09:19:28 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-08-09T13:19:28.412Z] <<< HTTP RESPONSE 200
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-08-09T13:19:29.145Z] Fetching environment
+[debug] [2018-08-09T13:19:29.147Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/bocas-test  
+  
+ Thu Aug 09 2018 09:19:29 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-08-09T13:19:29.455Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-09T13:19:29.456Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/348503874402:getServerAppConfig  
+  
+ Thu Aug 09 2018 09:19:29 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-08-09T13:19:29.756Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-09T13:19:29.757Z] Starting @google-cloud/functions-emulator
+[debug] [2018-08-09T13:19:31.335Z] Parsing function triggers
